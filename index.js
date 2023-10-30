@@ -90,7 +90,7 @@ const coffeeList = [
 
 app.get('/api/get-menu', (req, res) => {
     res.json({
-        coffeeList,
+        data: coffeeList,
     }).status(200);
 });
 
@@ -98,7 +98,7 @@ app.get('/api/get-coffee/:id', (req, res) => {
     const {id} = req.params;
     const coffee = coffeeList.find(coffee => coffee.id === Number(id));
     res.json({
-        coffee,
+        data: coffee,
     }).status(200);
 })
 
