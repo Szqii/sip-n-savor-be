@@ -20,7 +20,7 @@ app.get('/api/get-coffee/:id', async (req, res) => {
     const {id} = req.params;
     getSingleCoffee(id).then((data) => {
         res.json({
-            data,
+            data: data[0],
         }).status(200);
     })
 
