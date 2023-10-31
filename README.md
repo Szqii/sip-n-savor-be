@@ -2,8 +2,8 @@
 
 Basic backend for [Sip n Savor](https://github.com/Szqii/sip-n-savor-fe).
 
-
 ## Tech Stack
 
 - [Express.js](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com/)
